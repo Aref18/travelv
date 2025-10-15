@@ -48,7 +48,7 @@ class _MainPageState extends State<MainPage> {
                 children: [
                   Container(
                     width: double.infinity,
-                    height: Size.height / 2.58,
+                    height: Size.height / 2.48,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: AssetImage(travelList[SelectedIndex].image),
@@ -310,7 +310,7 @@ class _MainPageState extends State<MainPage> {
                               textAlign: TextAlign.start,
                               style: TextStyle(fontSize: 16),
                             ),
-                            SizedBox(height: 50),
+                            SizedBox(height: 20),
                             Padding(
                               padding: const EdgeInsets.only(
                                 left: 15,
