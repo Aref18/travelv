@@ -50,7 +50,7 @@
 
 ## 📸 پیش‌نمایش
 
-![TravelV Preview](https://raw.githubusercontent.com/ArefV/main/assets/images/travelV.gif)
+![TravelV Preview](assets/images/travelV.gif)
 
 
 
