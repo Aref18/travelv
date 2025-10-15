@@ -327,13 +327,19 @@ class _MainPageState extends State<MainPage> {
                                     children: [
                                       Text(
                                         'Total Price',
-                                        style: TextStyle(fontSize: 30),
+                                        style: TextStyle(
+                                          fontSize: 30,
+                                          color: Colors.blueGrey,
+                                        ),
                                       ),
                                       Text(
                                         '\$' +
                                             travelList[SelectedIndex].price
                                                 .toString(),
-                                        style: TextStyle(fontSize: 25),
+                                        style: TextStyle(
+                                          fontSize: 25,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
                                     ],
                                   ),
@@ -341,13 +347,14 @@ class _MainPageState extends State<MainPage> {
                                     width: 80,
                                     height: 80,
                                     decoration: BoxDecoration(
-                                      color: Colors.blueAccent,
+                                      color: Colors.black,
                                       borderRadius: BorderRadius.circular(40),
                                     ),
                                     child: IconButton(
                                       onPressed: () {},
                                       icon: Icon(
                                         Icons.arrow_forward_ios_outlined,
+                                        color: Colors.white,
                                       ),
                                     ),
                                   ),
