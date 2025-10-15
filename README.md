@@ -1,16 +1,56 @@
-# travelv
 
-A new Flutter project.
+# 🧳 TravelV
 
-## Getting Started
+اپلیکیشن **TravelV** یک پروژه‌ی نمونه با استفاده از فریم‌ورک **Flutter** است که برای نمایش اطلاعات مکان‌های گردشگری طراحی شده است.
+در این برنامه کاربر می‌تواند بین مقاصد مختلف جابه‌جا شود، جزئیات هر مکان را مشاهده کند و با رابط کاربری زیبا و انیمیشن‌های نرم تعامل داشته باشد.
 
-This project is a starting point for a Flutter application.
+## ✨ ویژگی‌ها
 
-A few resources to get you started if this is your first Flutter project:
+* 🎨 طراحی زیبا با تصویر پس‌زمینه‌ی انحنادار
+* 📸 نمایش تصاویر کوچک از سایر مقاصد به‌صورت لیست افقی
+* 🧾 بخش توضیحات با قابلیت **باز و بسته شدن متن (ExpandableText)**
+* 💬 نمایش اطلاعاتی مانند فاصله، دما و امتیاز هر مقصد
+* ❤️ دکمه علاقه‌مندی (Favorite) با انیمیشن تغییر حالت
+* 📱 طراحی ریسپانسیو و سازگار با تمام اندازه‌ صفحه‌ها
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 تکنولوژی‌ها و پکیج‌ها
+
+* 🐦 **Flutter**
+* 💡 **Dart**
+* 📦 پکیج [`expandable_text`](https://pub.dev/packages/expandable_text) برای متن‌های باز و بسته‌شونده
+
+---
+
+## 🚀 نحوه اجرا
+
+1. پروژه را کلون کنید:
+
+   ```bash
+   git clone https://github.com/<your-username>/travelv.git
+   ```
+2. وارد پوشه شوید:
+
+   ```bash
+   cd travelv
+   ```
+3. پکیج‌ها را نصب کنید:
+
+   ```bash
+   flutter pub get
+   ```
+4. برنامه را اجرا کنید:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📸 پیش‌نمایش
+
+(در این بخش می‌توانید چند تصویر از محیط برنامه قرار دهید)
+
+
+
