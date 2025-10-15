@@ -298,17 +298,61 @@ class _MainPageState extends State<MainPage> {
                             ),
                             SizedBox(height: 10),
                             ExpandableText(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ',
+                              travelList[SelectedIndex].description,
                               expanded: true,
                               expandText: 'show more',
                               collapseText: 'show less',
-                              maxLines: 2,
+                              maxLines: 1,
                               animation: true,
                               animationCurve: Curves.easeInOutBack,
                               animationDuration: Duration(milliseconds: 500),
                               linkColor: Colors.blue,
                               textAlign: TextAlign.start,
                               style: TextStyle(fontSize: 16),
+                            ),
+                            SizedBox(height: 50),
+                            Padding(
+                              padding: const EdgeInsets.only(
+                                left: 15,
+                                right: 15,
+                                top: 10,
+                              ),
+                              child: Row(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        'Total Price',
+                                        style: TextStyle(fontSize: 30),
+                                      ),
+                                      Text(
+                                        '\$' +
+                                            travelList[SelectedIndex].price
+                                                .toString(),
+                                        style: TextStyle(fontSize: 25),
+                                      ),
+                                    ],
+                                  ),
+                                  Container(
+                                    width: 80,
+                                    height: 80,
+                                    decoration: BoxDecoration(
+                                      color: Colors.blueAccent,
+                                      borderRadius: BorderRadius.circular(40),
+                                    ),
+                                    child: IconButton(
+                                      onPressed: () {},
+                                      icon: Icon(
+                                        Icons.arrow_forward_ios_outlined,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),

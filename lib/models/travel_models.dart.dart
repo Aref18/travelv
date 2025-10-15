@@ -29,7 +29,8 @@ List<TravelModels> travelList = [
     temp: 23,
     rate: 4.3,
     price: 2100,
-    description: 'new york is the most beautiful city in america and the world',
+    description:
+        'new york is the most beautiful city in america and the world new york is the most beautiful city in america and the world new york is the most beautiful city in america and the world',
   ),
   TravelModels(
     name: 'Edinburgh',
@@ -39,7 +40,8 @@ List<TravelModels> travelList = [
     temp: 12,
     rate: 4.9,
     price: 6100,
-    description: 'Edinburgh is the most beautiful city in uk and the world',
+    description:
+        'Edinburgh is the most beautiful city in uk and the world Edinburgh is the most beautiful city in uk and the world Edinburgh is the most beautiful city in uk and the world',
   ),
   TravelModels(
     name: 'Los Angeles',
@@ -49,7 +51,8 @@ List<TravelModels> travelList = [
     temp: 34,
     rate: 4,
     price: 1100,
-    description: 'Los Angeles is the most beautiful city in usa and the world',
+    description:
+        'Los Angeles is the most beautiful city in usa and the world Los Angeles is the most beautiful city in usa and the world Los Angeles is the most beautiful city in usa and the world ',
   ),
   TravelModels(
     name: 'London',
@@ -59,6 +62,7 @@ List<TravelModels> travelList = [
     temp: 13,
     rate: 2.3,
     price: 3100,
-    description: 'London is the most beautiful city in uk and the world',
+    description:
+        'London is the most beautiful city in uk and the world London is the most beautiful city in uk and the world London is the most beautiful city in uk and the world',
   ),
 ];
