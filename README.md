@@ -50,7 +50,7 @@
 
 ## 📸 پیش‌نمایش
 
-![App Preview](assets/preview/travelV.gif)
+![TravelV Preview](assets/preview/travelV.gif)
 
 
 
